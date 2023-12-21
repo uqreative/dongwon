@@ -1,0 +1,9 @@
+#header {
+    background-color: black;
+}
+
+#header h1 a {
+    background-image: url(/images/logo-dongwon_navbar.png);
+    width: 240rem;
+    height: 50rem;
+}
