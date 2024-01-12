@@ -44,3 +44,54 @@ nav.navbar.navbar-expand-lg {
     letter-spacing: 1.2px;
 }
 
+select.form-select.me-lg-4 {
+    background-color: transparent;
+    color: white;
+}
+
+.project-slider a .project-item-1,
+.project-slider a .project-item-2,
+.project-slider a .project-item-3 {
+    /* width: 671px; */
+    height: 412px;
+    background-color:darkgray;
+}
+.project-slider a .project-item-1 {
+    background-image: url(/images/projects-01.png);
+    background-size: cover;
+}
+.project-slider a .project-item-2 {
+    background-image: url(/images/projects-02.png);
+    background-size: cover;
+}
+.project-slider a .project-item-3 {
+    background-image: url(/images/projects-03.png);
+    background-size: cover;
+}
+
+section.projects {
+    padding-top: 125px;
+    padding-bottom: 125px;
+}
+section.projects .container-slider {
+    margin-top: 80px;
+}
+h3.section-tittle {
+    color: #222;
+    font-family: The Jamsil;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+h5.section-sub-tittle {
+    color: #444;
+    font-family: The Jamsil;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: capitalize;
+}

@@ -16,7 +16,6 @@
     <link rel="stylesheet" type="text/css" href="/css/main.css"/>
     <link rel="stylesheet" type="text/css" href="/css/content.css"/>
 
-		<script type="text/javascript" src="/js/jquery-1.12.2.min.js"></script>
 		<script type="text/javascript" src="/js/jquery.bxslider.js"></script>
 		<script type="text/javascript" src="/js/jquery-ui.js"></script>
 		<script type="text/javascript" src="/js/base.js"></script>
@@ -38,7 +37,13 @@
     <!-- Bootstrap  -->
     <link rel="stylesheet" href="/css/bootstrap.css">
 
-    <link rel="stylesheet" href="/css/splide.min.css">
+    <!-- <link rel="stylesheet" href="/css/splide.min.css"> -->
+    <link href="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/css/splide.min.css
+" rel="stylesheet">
+
+    <!-- slick kenwheeler -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 
     <!-- Remix icon -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet" />
@@ -50,7 +55,7 @@
 <body>
 
 <header>
-  <nav class="navbar navbar-expand-lg">
+  <nav class="navbar navbar-expand-lg fixed-top">
     <div class="container-fluid px-5">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mobileNavbarToggler" aria-controls="mobileNavbarToggler" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -85,11 +90,11 @@
             </option>
             <option value="english">ENG</option>
           </select>
-          <a href="#" class="btn btn-outline-dark d-flex me-lg-4">
+          <a href="#" class="btn btn-outline-light d-flex me-lg-4 text-white">
             <i class="ri-login-box-line"></i>&nbsp;
             <p class="mb-0">관리자</p>
           </a>
-          <a href="#" class="btn btn-outline-dark"><i class="ri-menu-3-line"></i></a>
+          <a href="#" class="btn btn-outline-light text-white"><i class="ri-menu-3-line"></i></a>
 
         </div>
       </div>
@@ -103,38 +108,101 @@
   </div>
 
 </header>
+
 <main>
-  <section>
+  <section class="projects">
     <div class="container">
       <div class="d-flex justify-content-between align-items-start">
         <div>
-          <h3>Projects</h3>
-          <h5>태양광 문화를 이끄는 동원이엔씨 프로젝트 실적</h5>
+          <h3 class="section-tittle">Projects</h3>
+          <h5 class="section-sub-tittle">태양광 문화를 이끄는 동원이엔씨 프로젝트 실적</h5>
         </div>
         <a href="#" class="btn btn-outline-dark">MORE</a>
       </div>
     </div>
-    <div class="container-fluid">
-      <div class="splide" role="group" aria-label="Splide Basic HTML Example">
-        <div class="splide__track">
-          <ul class="splide__list">
-            <li class="splide__slide">Slide 01</li>
-            <li class="splide__slide">Slide 02</li>
-            <li class="splide__slide">Slide 03</li>
-          </ul>
-        </div>
+    <div class="container-fluid container-slider px-lg-0">
+      <div class="project-slider">
+        <a href="#">
+          <div class="project-item-1 px-4 d-flex align-items-end justify-content-between">
+            <p class="text-white">온누리 태양광발전소/1.4MW</p>
+            <p class="text-white"><i class="ri-map-pin-line"></i> 경북 구미 옥성면</p>
+          </div>
+        </a>
+        <a href="#">
+          <div class="project-item-2 px-4 d-flex align-items-end justify-content-between">
+            <p class="text-white">온누리 태양광발전소/1.4MW</p>
+            <p class="text-white"><i class="ri-map-pin-line"></i> 경북 구미 옥성면</p>
+          </div>
+        </a>
+        <a href="#">
+          <div class="project-item-3 px-4 d-flex align-items-end justify-content-between">
+            <p class="text-white">온누리 태양광발전소/1.4MW</p>
+            <p class="text-white"><i class="ri-map-pin-line"></i> 경북 구미 옥성면</p>
+          </div>
+        </a>
+        <!-- repeat gambar -->
+        <a href="#">
+          <div class="project-item-1 px-4 d-flex align-items-end justify-content-between">
+            <p class="text-white">온누리 태양광발전소/1.4MW</p>
+            <p class="text-white"><i class="ri-map-pin-line"></i> 경북 구미 옥성면</p>
+          </div>
+        </a>
+        <a href="#">
+          <div class="project-item-2 px-4 d-flex align-items-end justify-content-between">
+            <p class="text-white">온누리 태양광발전소/1.4MW</p>
+            <p class="text-white"><i class="ri-map-pin-line"></i> 경북 구미 옥성면</p>
+          </div>
+        </a>
+        <a href="#">
+          <div class="project-item-3 px-4 d-flex align-items-end justify-content-between">
+            <p class="text-white">온누리 태양광발전소/1.4MW</p>
+            <p class="text-white"><i class="ri-map-pin-line"></i> 경북 구미 옥성면</p>
+          </div>
+        </a>
+        
+
       </div>
     </div>
+    
   </section>
+
+  
+
 </main>
 
 
+
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 
 <!-- Bootsrap v5.3.2 js-bundle -->
 <script src="/js/bootstrap.bundle.js"></script>
 
 <!-- splide  -->
-<script src="/js/splide.min.js"></script>
+<!-- <script src="/js/splide.min.js"></script> -->
+<script src="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/js/splide.min.js
+"></script>
+
+<!-- slick kenwheeler -->
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<script>
+  document.addEventListener( 'DOMContentLoaded', function() {
+    var splide = new Splide( '.splide' );
+    splide.mount();
+  } );
+
+// slick 
+$('.project-slider').slick({
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 3,
+  arrows: false
+});
+
+  
+</script>
 
 <script src="/js/design.js"></script>
 </body>
