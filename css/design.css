@@ -103,10 +103,16 @@ body {
 }
 /* ======================================================================
 =================================== navbar ============================== */
+nav#navbar {
+    height: 96px;
+}
+nav#navbar a.nav-link {
+    font-size: 18px;
+}
 
 /* navbar transparant  */
 .bg-nav-transparant {
-    background-color: rgba(255, 255, 255, .2) !important;
+    background-color: rgba(255, 255, 255, .1) !important;
     transition: background-color 0.5s;
 }
 #logo-white {
@@ -129,11 +135,14 @@ ul.navbar-nav li.nav-item:not(:first-child) a.nav-link {
 
 
 #btn-lang {
-    width: 100%;
-    height: auto !important;
+    /* width: 100%; */
+    height: 35px !important;
+    padding-top: 4px;
+    /* padding-right: 25px; */
 }
 #btn-manager {
-    width: 100%;
+    /* width: 100%; */
+    height: 35px;
 }
 #btn-manager p {
     color: inherit;
@@ -146,6 +155,15 @@ ul.navbar-nav li.nav-item:not(:first-child) a.nav-link {
     background-color: purple;
 }
 
+#btn-menu-offcanvas {
+    width: 35px;
+    height: 35px;
+    padding: 2px 8px 5px 6px;
+    font-size: 20px;
+}
+
+.caret{ color: red; }
+
 /* ==========================================================================
 =================================== end navbar ============================== */
 
@@ -154,7 +172,7 @@ ul.navbar-nav li.nav-item:not(:first-child) a.nav-link {
 .hero {
     /* width: 100vw; */
     margin-top: -76px;
-    padding-top: 400px;
+    padding-top: 48vh;
     height: calc(100vh + 76px) ;
     background-image: url(http://dongwonec.koweb.co.kr/test/images/hero-image_index.jpg);
     background-position: left top;
@@ -195,27 +213,37 @@ ul.navbar-nav li.nav-item:not(:first-child) a.nav-link {
 
 /* ================= section project =================== */
 
-.project-slider a .project-item-1,
-.project-slider a .project-item-2,
-.project-slider a .project-item-3 {
+#project-list-container .project-item-1,
+#project-list-container .project-item-2,
+#project-list-container .project-item-3 {
+    width: 671px;
     height: 412px;
     background-color:darkgray;
 }
-.project-slider a .project-item-1 {
+#project-list-container .project-item-1 {
     background-image: url(http://dongwonec.koweb.co.kr/test/images/projects-01.png);
     background-size: cover;
 }
-.project-slider a .project-item-2 {
+#project-list-container .project-item-2 {
     background-image: url(http://dongwonec.koweb.co.kr/test/images/projects-02.png);
     background-size: cover;
 }
-.project-slider a .project-item-3 {
+#project-list-container .project-item-3 {
     background-image: url(http://dongwonec.koweb.co.kr/test/images/projects-03.png);
     background-size: cover;
 }
 section.projects {
     padding-top: 125px;
     padding-bottom: 135px;
+}
+.tittle-container .more-btn {
+    text-align: center;
+    font-family: var(--font-jamsil-light);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0.7px;
+    text-transform: capitalize;
 }
 section.projects .container-slider {
     margin-top: 80px;
@@ -236,6 +264,21 @@ h5.section-sub-tittle {
     font-style: normal;
     font-weight: 300;
     text-transform: capitalize;
+}
+section.projects section.project-slider .splide__track .splide__list .splide__slide > div > P {
+    color: white;
+    font-family: var(--font-jamsil-thin);
+    font-size: 24px;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.2px;
+}
+section.projects section.project-slider .splide__track .splide__list .splide__slide > div > div > P {
+    color: white;
+    font-family: var(--font-jamsil-thin);
+    font-size: 16px;
+    font-style: normal;
+    line-height: normal;
 }
 
 /* ================= section business =================== */
@@ -359,6 +402,22 @@ section.news .card.news p.card-text  {
     text-transform: capitalize;
 }
 
+.card.news .card-body > div > div:nth-child(2) > p {
+    font-family: var(--font-jamsil-light);
+}
+
+section#news-list .splide__arrows,
+section#news-list .splide__arrows .splide__arrow--prev,
+section#news-list .splide__arrows .splide__arrow--next {
+    background-color: transparent;
+}
+section#news-list .splide__arrows .splide__arrow--prev {
+    left: -50px;
+}
+section#news-list .splide__arrows .splide__arrow--next {
+    right: -50px;
+}
+
 
 /* ================= section related sites =================== */
 
@@ -366,12 +425,22 @@ section.related-sites {
     padding: 58px 0 80px 0;
     background: var(--bg-section-grey);
 }
-section.related-sites>div.container>h3 {
-    color: var(--text-title-color);
-    font-family: var(--font-jamsil-regular);
-    font-size: 28px;
+section.news .tittle-container h3 {
+    color: #222;
+    font-family: var(--font-jamsil-light);
+    font-size: 46px;
     font-style: normal;
     font-weight: 300;
+    line-height: normal;
+    letter-spacing: 2.3px;
+    text-transform: capitalize;
+}
+
+section.related-sites>div.container>h3 {
+    color: var(--text-title-color);
+    font-family: var(--font-jamsil-light);
+    font-size: 28px;
+    font-style: normal;
     line-height: normal;
     text-transform: capitalize;
 }
@@ -436,23 +505,53 @@ footer.container-fluid .footer-logo {
     width: 100%;
 }
 
+
+section.related-sites button.splide__arrow {
+    top: -50%;
+    right : 0px;
+}
+section.related-sites button.splide__arrow.splide__arrow--prev {
+    transform: translateX(1206px) translateY(-15px);
+}
+
+
+
 /* ==========================================================================
 ================================= mobile phone view ========================= */
 @media only screen and (max-width: 600px) {
     body {
         width: 100%;
     }
+
+    nav#navbar {
+        height: auto;
+    }
     nav.navbar>div.container {
         padding-right: 30px !important;
+    }
+    ul.navbar-nav li.nav-item:not(:first-child) a.nav-link {
+        margin-left: 20px;
+    }
+    ul.navbar-nav li.nav-item a.nav-link {
+        margin-left: 20px;
     }
 
     #logo-white>img,
     #logo-color>img {
         height: 36px !important;
     }
+    
+
+    #mobileNavbarToggler .select-lang {
+        text-align: start;
+        width: 45%;
+        border: solid 1px #212529;
+    }
 
     #btn-lang {
-        width: 45%;
+        /* width: 45%; */
+        border: none;
+        background-color: transparent;
     }
     #btn-manager {
         width: 45%;
@@ -473,8 +572,15 @@ footer.container-fluid .footer-logo {
         padding-bottom: 50px;
     }
     section.projects .container-slider {
-        margin-top: 30px;
+        margin-top: 12px;
     }
+    
+    #project-list-container .project-item-1,
+    #project-list-container .project-item-2,
+    #project-list-container .project-item-3 {
+    width: 100vw;
+    background-color:darkgray;
+}
 
     section.information {
         padding-top: 70px;
@@ -519,6 +625,22 @@ footer.container-fluid .footer-logo {
     }
     section.news .news-item img {
         border: solid 1px #e1e1e1;
+    }
+        section#news-list .splide__arrows,
+        section#news-list .splide__arrows .splide__arrow--prev,
+        section#news-list .splide__arrows .splide__arrow--next {
+           display: none;
+        }
+    
+    section.news #news-list .splide__slide .splide__slide__container .row {
+        width: 100vw !important;
+    }
+    section.news #news-list .splide__slide .splide__slide__container .row img {
+        max-width: none;
+    }
+
+    section.related-sites button.splide__arrow {
+        display: none;
     }
 
     footer.container-fluid .footer-logo {
