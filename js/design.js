@@ -1,76 +1,4 @@
- // slick 
-//  $('.project-slider').slick({
-//     infinite: true,
-//     slidesToShow: 3,
-//     slidesToScroll: 1,
-//     autoplay: true,
-//     autoplaySpeed: 2000,
-//     arrows: false,
-//     responsive: [
-//       {
-//         breakpoint: 1024,
-//         settings: {
-//           slidesToShow: 1,
-//           slidesToScroll: 1,
-//           infinite: true,
-//           dots: true
-//         }
-//       },
-//       {
-//         breakpoint: 600,
-//         settings: {
-//           slidesToShow: 1,
-//           slidesToScroll: 1
-//         }
-//       },
-//       {
-//         breakpoint: 480,
-//         settings: {
-//           slidesToShow: 1,
-//           slidesToScroll: 1
-//         }
-//       }
-//     ]
-//   });
 
-  // $('.news-item').slick({
-  //   infinite: true,
-  //   slidesToShow: 1,
-  //   slidesToScroll: 1,
-  //   autoplay: true,
-  //   autoplaySpeed: 2000,
-  // });
-
-  // $('.related-sites-logo').slick({
-  //   infinite: true,
-  //   slidesToShow: 5,
-  //   slidesToScroll: 1,
-  //   autoplay: true,
-  //   autoplaySpeed: 2000,
-  //   arrows: false,
-  //   responsive: [
-  //     {
-  //       breakpoint: 1024,
-  //       settings: {
-  //         slidesToShow: 2,
-  //         centerMode: true,
-  //         slidesToScroll: 1,
-  //         infinite: true,
-  //       }
-  //     },
-  //     {
-  //       breakpoint: 600,
-  //       settings: {
-  //         slidesToShow: 1,
-  //         centerMode: true,
-  //         slidesToScroll: 1,
-  //         infinite: true,
-  //       }
-  //     },
-  //   ]
-  // });
-
-  
 
 // navbar change on scroll
 $(window).scroll(function(){
@@ -104,8 +32,8 @@ $(window).scroll(function(){
     $('#logo-white').css("display", "block");
     $('#logo-color').css("display", "none");
     
-    $(".nav-link").removeClass("text-dark");
-    $(".nav-link").addClass("text-white");
+    $("#navbar .nav-link").removeClass("text-dark");
+    $("#navbar .nav-link").addClass("text-white");
     
     $("#btn-manager, #btn-menu-offcanvas").removeClass("btn-outline-dark text-dark");
     $("#btn-manager, #btn-menu-offcanvas").addClass("btn-outline-light text-white");
@@ -128,16 +56,17 @@ document.addEventListener( 'DOMContentLoaded', function() {
   new Splide( '#news-list', {
     autoWidth: true,
     fixedHeight: 534,
-    // type   : 'loop',
+    type   : 'loop',
     perPage    : 1,
-    pagination : false,
+    focus  : 1,
+    pagination : true,
     breakpoints: {
       600: {
         fixedWidth : 60,
         fixedHeight: 860,
       },
     },
-  } ).mount();
+  } ).mount(  );
 
   // related-site-logo section
   new Splide( '#related-site_slider', {
