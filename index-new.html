@@ -189,7 +189,7 @@
           <div class="row information-item">
             <div class="col-lg-6">
               <h5>SMP+ (RECX1.0)</h5>
-              <select class="form-select w-auto " aria-label="REC option">
+              <select class="form-select w-auto h-auto " aria-label="REC option">
                 <option value="REC 가중지 1.0" selected>REC 가중지 1.0</option>
                 <option value="REC 가중지 2.0" selected>REC 가중지 2.0</option>
                 <option value="REC 가중지 3.0" selected>REC 가중지 3.0</option>
@@ -205,8 +205,13 @@
           <hr>
         </div>
         <div class="col-lg-6">
-          <div class="d-flex w-75 h-100 mx-auto align-items-center mt-4 mt-lg-0">
-            <img src="./images/smp-rec-image-dummy.jpg" class="img-fluid" alt="dummy-image">
+          <div class="h-100 d-flex justify-content-center align-items-center mt-4 mt-lg-0"">
+            
+            <!-- chart  -->
+            <div class="w-100 px-1 px-lg-2">
+              <canvas id="smpChart"></canvas>
+            </div>
+
           </div>
         </div>
       </div>

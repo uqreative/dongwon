@@ -144,6 +144,14 @@ header .offcanvas .nav-item>ul .nav-link:hover {
 }
 
 
+/* chart  */
+#smp-chart {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+
 /* ==========================================================================
 =================================== end navbar ============================== */
 
