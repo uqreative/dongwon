@@ -15,6 +15,8 @@
     --font-jamsil-black : theJamsil800;
 
     --font-notosans-kr : "Noto Sans KR";
+
+    --font-iropkebatang : iropkeBatang;
   }
 
 /* ::-webkit-scrollbar {
@@ -53,8 +55,8 @@ body {
     font-family: 'Noto Sans KR', sans-serif;
     width: 100%;
     overflow-x: hidden;
-    
 }
+
 /* ======================================================================
 =================================== navbar ============================== */
 nav#navbar {
@@ -86,7 +88,6 @@ nav#navbar a.nav-link {
 ul.navbar-nav li.nav-item:not(:first-child) a.nav-link {
     margin-left: 90px;
 }
-
 
 nav#navbar #btn-lang {
     /* width: 100%; */
@@ -155,8 +156,6 @@ header .offcanvas .nav-item>ul .nav-link:hover {
 /* ==========================================================================
 =================================== end navbar ============================== */
 
-
-
 .hero {
     /* width: 100vw; */
     margin-top: -76px;
@@ -179,9 +178,9 @@ header .offcanvas .nav-item>ul .nav-link:hover {
     height: calc(50vh + 76px) ;
     padding-top: 29vh;
     background-image: url(/images/content/img_sub_visual01.jpg);
-    background-position:center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
+    background-position-y: 75px;
 }
 .hero>div>h3 {
     color: #FFF;
@@ -555,6 +554,12 @@ section.greetings .container h3 {
     line-height: 1.8;
 }
 
+section.greetings .container h3 span {
+    color: #ff8c46;
+}
+
+
+
 .container-fluid.sub-menu {
     background-color: #ebf0f4;
 }
@@ -602,6 +607,9 @@ main.about-greetings .greetings-quote div:nth-child(2) {
 
 
 
+#ff8c46
+
+
 
 /* sun animate  */
 @keyframes rotation {
@@ -612,6 +620,14 @@ main.about-greetings .greetings-quote div:nth-child(2) {
     100% {    -webkit-transform: rotate(360deg);
         transform: rotate(360deg);}
 }
+
+
+
+section.greetings .container h3.about-tit {
+    font-family: var(--font-iropkebatang);
+}
+
+
 
 /* ==========================================================================
 ================================= mobile phone view ========================= */

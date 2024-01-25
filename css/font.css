@@ -70,3 +70,12 @@
          url("https://cdn.jsdelivr.net/gh/websfont/theJamsil/theJamsil-ExtraBold.ttf") format("truetype");
     font-display: swap;
 } 
+
+/* iropke batang font  */
+@font-face {
+    font-family: "iropkeBatang";
+    src: url("./font/IropkeBatangM.woff") format("woff"),
+         url(/font/iropkeBatang/IropkeBatangM.ttf) format("truetype"),
+         url(/font/iropkeBatang/iropkeBatangM.eot) format("embedded-opentype")
+
+  }

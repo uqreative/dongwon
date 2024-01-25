@@ -1,3 +1,5 @@
+// initialize aos 
+AOS.init();
 
 
 // navbar change on scroll
