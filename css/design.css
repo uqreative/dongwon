@@ -605,12 +605,6 @@ main.about-greetings .greetings-quote div:nth-child(2) {
     padding-left: 20px;
 }
 
-
-
-#ff8c46
-
-
-
 /* sun animate  */
 @keyframes rotation {
     0% {
@@ -620,7 +614,6 @@ main.about-greetings .greetings-quote div:nth-child(2) {
     100% {    -webkit-transform: rotate(360deg);
         transform: rotate(360deg);}
 }
-
 
 
 section.greetings .container h3.about-tit {
@@ -678,6 +671,10 @@ section.greetings .container h3.about-tit {
 
     .hero {
         padding-top: 205px;
+    }
+    .hero.about-us {
+        /* background-size: cover;
+        background-position-x: -670px; */
     }
 
     section.projects {
