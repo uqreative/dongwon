@@ -673,8 +673,8 @@ section.greetings .container h3.about-tit {
         padding-top: 205px;
     }
     .hero.about-us {
-        /* background-size: cover;
-        background-position-x: -670px; */
+        background-size: cover;
+        background-position-x: -670px;
     }
 
     section.projects {
