@@ -1,5 +1,3 @@
-// initialize aos 
-AOS.init();
 
 
 // navbar change on scroll
@@ -118,6 +116,7 @@ document.addEventListener( 'DOMContentLoaded', function() {
 
 
 
+
 // chart js 
 const ctx = document.getElementById('smpChart');
 const xValues = ['2022-11','2022-12','2023-2','2023-4','2023-6'];
@@ -160,3 +159,21 @@ new Chart(ctx, {
     }
   }
 });
+
+
+// initialize aos 
+AOS.init();
+
+
+const lenis = new Lenis()
+
+lenis.on('scroll', (e) => {
+  console.log(e)
+})
+
+function raf(time) {
+  lenis.raf(time)
+  requestAnimationFrame(raf)
+}
+
+requestAnimationFrame(raf)

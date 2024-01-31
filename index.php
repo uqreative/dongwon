@@ -1,5 +1,5 @@
-<?include("./inc/top.html")?>
-<?include("./inc/header.html")?>
+<?php include("./inc/top.html")?>
+<?php include("./inc/header.html")?>
 
 <div class="hero main-page">
   <div class="text-center">
@@ -9,7 +9,6 @@
 </div>
 
 <main>
-
   <section class="projects">
     <div class="container tittle-container">
       <div class="d-flex justify-content-between align-items-start">
@@ -205,7 +204,7 @@
           <hr>
         </div>
         <div class="col-lg-6">
-          <div class="h-100 d-flex justify-content-center align-items-center mt-4 mt-lg-0"">
+          <div class="h-100 d-flex justify-content-center align-items-center mt-4 mt-lg-0">
             
             <!-- chart  -->
             <div class="w-100 px-1 px-lg-2">
@@ -378,12 +377,11 @@
             </li>
           </ul>
         </div>
+        
       </div>
-
     </div>
   </section>
-
 </main>
 
 
-<?include("./inc/footer.html")?>
+<?php include("./inc/footer.html")?>
