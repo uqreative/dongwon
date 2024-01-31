@@ -2,10 +2,10 @@
 <?php include("./inc/header.html")?>
 
 
-<div class="hero business">
+<div class="hero inquiry">
     <div class="text-center">
-        <h3>시공사례</h3>
-        <h4 class="text-white fw-semibold">업계의 중심에서 태양광 문화를 이끄는 기업 동원이엔씨입니다.</h4>
+        <h3>컨설팅/견적문의</h3>
+        <h4 class="text-white fw-semibold">전문가의 전략적 분석, 고객의 최대 이익 이것이 원칙입니다.</h4>
     </div>
 </div>
 

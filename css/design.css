@@ -343,6 +343,14 @@ header>nav .dropdown:hover .dropdown-menu {
     background-repeat: no-repeat;
     background-position-y: 75px;
 }
+.hero.inquiry {
+    height: calc(50vh + 76px);
+    padding-top: 29vh;
+    background-image: url(../images/content/img_sub_visual03.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 75px;
+}
 
 .hero>div>h3 {
     color: #FFF;
