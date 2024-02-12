@@ -1,11 +1,33 @@
 <?php include("./inc/top.html")?>
-<?php include("./inc/header.html")?>
+<?php include("./inc/header.php")?>
 
 <div class="hero main-page">
-  <div class="text-center">
-    <h3>태양광 문화를 이끄는 기업 동원이엔씨</h3>
-    <h4 class="text-white fw-semibold">고객의 20년, 행복할 수 있도록 동원이엔씨가 책임지겠습니다.</h4>
-  </div>
+
+  <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="true" space-between="30"
+    centered-slides="true" autoplay-delay="5000" autoplay-disable-on-interaction="false" loop="true">
+    <swiper-slide>
+      <div class="text-hero text-center">
+        <h3>태양광 문화를 이끄는 기업 동원이엔씨</h3>
+        <h4 class="text-white fw-semibold">전문가의 전략적 분석, 고객의 최대 이익을 원칙으로 합니다.</h4>
+      </div>
+      <img src="./images/carousel_hero_index_01.jpg" alt="">
+    </swiper-slide>
+    <swiper-slide>
+      <div class="text-hero text-center">
+        <h3>태양광 문화를 이끄는 기업 동원이엔씨</h3>
+        <h4 class="text-white fw-semibold">고객의 20년, 행복할 수 있도록 동원이엔씨가 책임지겠습니다.</h4>
+      </div>
+      <img src="./images/carousel_hero_index_02.jpg" alt="">
+    </swiper-slide>
+    <swiper-slide>
+      <div class="text-hero text-center">
+        <h3>태양광 문화를 이끄는 기업 동원이엔씨</h3>
+        <h4 class="text-white fw-semibold">고객의 20년, 행복할 수 있도록 동원이엔씨가 책임지겠습니다.</h4>
+      </div>
+      <img src="./images/carousel_hero_index_03.jpg" alt="">
+    </swiper-slide>
+  </swiper-container>
+
 </div>
 
 <main>
@@ -18,6 +40,7 @@
         </div>
         <a href="#" class="btn btn-outline-dark more-btn mt-3 ">MORE</a>
       </div>
+
     </div>
     <div class="container-fluid container-slider px-lg-0">
 
@@ -384,4 +407,4 @@
 </main>
 
 
-<?php include("./inc/footer.html")?>
+<?php include("./inc/footer.php")?>

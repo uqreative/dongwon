@@ -1,5 +1,5 @@
 <?php include("./inc/top.html")?>
-<?php include("./inc/header.html")?>
+<?php include("./inc/header.php")?>
 
 
 <div class="hero inquiry">
@@ -240,4 +240,4 @@
 
 </main>
 
-<?php include("./inc/footer.html")?>
+<?php include("./inc/footer.php")?>

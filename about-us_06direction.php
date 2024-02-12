@@ -1,5 +1,5 @@
 <?php include("./inc/top.html")?>
-<?php include("./inc/header.html")?>
+<?php include("./inc/header.php")?>
 
 
 <div class="hero about-us">
@@ -73,7 +73,7 @@
                 </div>
                 <div class="col-lg-3">
                     <div class="h-100 d-flex justify-content-center "  data-aos="fade-up" data-aos-delay="200" data-aos-easing="ease-in-out" data-aos-duration="600" data-aos-anchor-placement="top-bottom">
-                        <a href="https://maps.app.goo.gl/wobtUxLvLkTrQVSn6" class="btn btn-outline-secondary btn-lg rounded-0 align-self-center py-3 px-5" target="blank">지도보기</a>
+                        <a href="http://kko.to/dwxRMEfD0" class="btn btn-outline-secondary btn-lg rounded-0 align-self-center py-3 px-5" target="blank">지도보기</a>
                     </div>
                 </div>
             </div>
@@ -81,4 +81,4 @@
     </section>
 </main>
 
-<?php include("./inc/footer.html")?>
+<?php include("./inc/footer.php")?>

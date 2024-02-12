@@ -1,5 +1,5 @@
 <?php include("./inc/top.html")?>
-<?php include("./inc/header.html")?>
+<?php include("./inc/header.php")?>
 
 
 <div class="hero construction">
@@ -39,9 +39,9 @@
         <div class="container" >
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
-                    <a href="#">
+                    <a href="./construction_02building_view.php">
                         <div class="card shadow-sm h-100">
-                            <img src="./images/content/business/thumb_01.jpg" class="card-img-top ratio ratio-4x3"
+                            <img src="./images/thumbs/building_list_001.jpg" class="card-img-top ratio ratio-4x3"
                                 alt="온누리 태양광발전소/1.4MW">
                             <div class="card-body">
                                 <h5 class="card-title">온누리 태양광발전소/1.4MW</h5>
@@ -51,9 +51,9 @@
                     </a>
                 </div>
                 <div class="col">
-                    <a href="#">
+                    <a href="./construction_02building_view.php">
                         <div class="card shadow-sm  h-100">
-                            <img src="./images/content/business/thumb_02.jpg" class="card-img-top" alt="한동1호 태양광발전소/500kW">
+                            <img src="./images/thumbs/building_list_002.jpg" class="card-img-top" alt="한동1호 태양광발전소/500kW">
                             <div class="card-body">
                                 <h5 class="card-title">한동1호 태양광발전소/500kW</h5>
                                 <p class="card-text">2023-10-05</p>
@@ -62,9 +62,9 @@
                     </a>
                 </div>
                 <div class="col">
-                    <a href="#">
+                    <a href="./construction_02building_view.php">
                         <div class="card shadow-sm  h-100">
-                            <img src="./images/content/business/thumb_03.JPG" class="card-img-top" alt="산, 마루, 신라 태양광발전소/300kW">
+                            <img src="./images/thumbs/building_list_003.jpg" class="card-img-top" alt="산, 마루, 신라 태양광발전소/300kW">
                             <div class="card-body">
                                 <h5 class="card-title">산, 마루, 신라 태양광발전소/300kW</h5>
                                 <p class="card-text">2022-01-18</p>
@@ -73,9 +73,9 @@
                     </a>
                 </div>
                 <div class="col">
-                    <a href="#">
+                    <a href="./construction_02building_view.php">
                         <div class="card shadow-sm  h-100">
-                            <img src="./images/content/business/thumb_04.JPG" class="card-img-top" alt="썬파워일 태양광발전소/500kW">
+                            <img src="./images/thumbs/building_list_004.jpg" class="card-img-top" alt="썬파워일 태양광발전소/500kW">
                             <div class="card-body">
                                 <h5 class="card-title">썬파워일 태양광발전소/500kW</h5>
                                 <p class="card-text">2022-01-18</p>
@@ -84,9 +84,9 @@
                     </a>
                 </div>
                 <div class="col">
-                    <a href="#">
+                    <a href="./construction_02building_view.php">
                         <div class="card shadow-sm  h-100">
-                            <img src="./images/content/business/thumb_05.JPG" class="card-img-top" alt="무주 발전소 / 3.3mW">
+                            <img src="./images/thumbs/building_list_005.jpg" class="card-img-top" alt="무주 발전소 / 3.3mW">
                             <div class="card-body">
                                 <h5 class="card-title">무주 발전소 / 3.3mW</h5>
                                 <p class="card-text">2021-01-15</p>
@@ -95,9 +95,9 @@
                     </a>
                 </div>
                 <div class="col">
-                    <a href="#">
+                    <a href="./construction_02building_view.php">
                         <div class="card shadow-sm  h-100">
-                            <img src="./images/content/business/thumb_06.jpg" class="card-img-top" alt="마강리 발전소 / 2.4mW">
+                            <img src="./images/thumbs/building_list_006.jpg" class="card-img-top" alt="마강리 발전소 / 2.4mW">
                             <div class="card-body">
                                 <h5 class="card-title">마강리 발전소 / 2.4mW</h5>
                                 <p class="card-text">2021-01-15</p>
@@ -154,4 +154,4 @@
 
 </main>
 
-<?php include("./inc/footer.html")?>
+<?php include("./inc/footer.php")?>

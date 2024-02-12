@@ -1,5 +1,5 @@
 <?php include("./inc/top.html")?>
-<?php include("./inc/header.html")?>
+<?php include("./inc/header.php")?>
 
 
 <div class="hero about-us">
@@ -49,7 +49,7 @@
         <div class="container" data-aos="fade-up" data-aos-delay="300" data-aos-easing="ease-in-out" data-aos-duration="700" data-aos-anchor-placement="top-center">
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
-                    <a href="#">
+                    <a href="./about-us_05corp-trend_view.php">
                         <div class="card h-100">
                             <img src="./images/content/blog-list_thumb01.png" class="card-img-top" alt="...">
                             <div class="card-body">
@@ -62,7 +62,7 @@
                     </a>
                 </div>
                 <div class="col">
-                    <a href="#">
+                    <a href="./about-us_05corp-trend_view.php">
                         <div class="card h-100">
                             <img src="./images/content/blog-list_thumb02.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
@@ -75,7 +75,7 @@
                     </a>
                 </div>
                 <div class="col">
-                    <a href="#">
+                    <a href="./about-us_05corp-trend_view.php">
                         <div class="card h-100">
                             <img src="./images/content/blog-list_thumb01.png" class="card-img-top" alt="...">
                             <div class="card-body">
@@ -88,10 +88,55 @@
                     </a>
                 </div>
             </div>
+
+            <div class="d-flex justify-content-lg-between align-items-lg-center  my-5">
+                    <form action="">
+                        <input type="hidden" name="board_id" value="board_gallery02" />
+                        <input type="hidden" name="start" value="0" />
+                        <div class="search_bbs">
+                            <!-- 검색 -->
+                            <div class="search">
+
+                                <select name="search_key" id="searchType">
+                                    <option value="">전체</option>
+                                    <option value="title"> 제목</option>
+                                    <option value="name">작성자</option>
+                                </select>
+                                <input type="text" id="keyword" name="keyword" value="">
+                                <input type="submit" class="button" value="검색">
+
+                            </div>
+                        </div>
+                    </form>
+
+
+                </div>
+
+
+                <div>
+                    <hr style="border-top: dotted 1px;" />
+                </div>
+
+                <ul class="pagination">
+                    <li class="page-item">
+                        <a class="page-link btn_first" href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link btn_end" href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    </li>
+                </ul>
+
         </div>
     </section>
 
 </main>
 
 
-<?php include("./inc/footer.html")?>
+<?php include("./inc/footer.php")?>

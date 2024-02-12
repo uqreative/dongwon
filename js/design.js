@@ -118,58 +118,62 @@ document.addEventListener( 'DOMContentLoaded', function() {
 
 
 // chart js 
-const ctx = document.getElementById('smpChart');
-const xValues = ['2022-11','2022-12','2023-2','2023-4','2023-6'];
+// const ctx = document.getElementById('smpChart');
+// const xValues = ['2022-11','2022-12','2023-2','2023-4','2023-6'];
 
-new Chart(ctx, {
-  type: 'line',
-  data: {
-    labels: xValues,
-    datasets: [{
-      label: 'SMP',
-      data: [240,260,250,145,150],
-      backgroundColor: 'rgba(163, 192, 142, 0.5)',
-      borderColor: "#A3C08E",
-      fill: true,
-      tension: 0.2
-    },{
-      label: 'REC',
-      data: [60,50,60,75,85],
-      backgroundColor: 'rgba(107, 174, 226, 0.5)',
-      borderColor: "#6BAEE2",
-      fill: true,
-      tension: 0.2
-    },{
-      label: 'SMP+REC',
-      data: [310,340,320,220,240],
-      backgroundColor: 'rgba(249, 140, 129, 0.5)',
-      borderColor: "#F98C81",
-      fill: true,
-      tension: 0.2
-    }]
-  },
-  options: {
-    scales: {
-      y: {
-        beginAtZero: true
-      }
-    },
-    plugins: {
+// new Chart(ctx, {
+//   type: 'line',
+//   data: {
+//     labels: xValues,
+//     datasets: [{
+//       label: 'SMP',
+//       data: [240,260,250,145,150],
+//       backgroundColor: 'rgba(163, 192, 142, 0.5)',
+//       borderColor: "#A3C08E",
+//       fill: true,
+//       tension: 0.2
+//     },{
+//       label: 'REC',
+//       data: [60,50,60,75,85],
+//       backgroundColor: 'rgba(107, 174, 226, 0.5)',
+//       borderColor: "#6BAEE2",
+//       fill: true,
+//       tension: 0.2
+//     },{
+//       label: 'SMP+REC',
+//       data: [310,340,320,220,240],
+//       backgroundColor: 'rgba(249, 140, 129, 0.5)',
+//       borderColor: "#F98C81",
+//       fill: true,
+//       tension: 0.2
+//     }]
+//   },
+//   options: {
+//     scales: {
+//       y: {
+//         beginAtZero: true
+//       }
+//     },
+//     plugins: {
       
-    }
-  }
-});
+//     }
+//   }
+// });
 
 
 // initialize aos 
 AOS.init();
 
-
+// lenis studio freight 
 const lenis = new Lenis()
 
 lenis.on('scroll', (e) => {
   console.log(e)
 })
+
+
+
+
 
 function raf(time) {
   lenis.raf(time)
@@ -177,3 +181,5 @@ function raf(time) {
 }
 
 requestAnimationFrame(raf)
+
+

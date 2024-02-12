@@ -1,5 +1,5 @@
 <?php include("./inc/top.html")?>
-<?php include("./inc/header.html")?>
+<?php include("./inc/header.php")?>
 
 
 <div class="hero solar-introduction">
@@ -34,144 +34,142 @@
 
     </section>
 
-    
+
     <section class="inquiry__list">
-        <
+        <!-- Inquiry list table -->
+            <div class="container mt-5">
+                <table class="bbsList">
+                    <caption>게시판 목록</caption>
+                    <colgroup>
+                        <col data-table="number" style="width:7%" />
+                        <col data-table="subject" />
+                        <col data-table="write" style="width:15%" />
+                        <col data-table="date" style="width:15%" />
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th scope="col" data-table="number">No.</th>
+                            <th scope="col" data-table="subject">제목</th>
+                            <th scope="col" data-table="write">작성자</th>
+                            <th scope="col" data-table="date">작성일</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td data-table="number">1000</td>
+                            <td data-table="subject"><a href="#">[ 스피커와 앰프 ]<i>[0]</i></a></td>
+                            <td data-table="write">관리자</td>
+                            <td data-table="date">2019-12-05</td>
+                        </tr>
+                        <tr>
+                            <td data-table="number">999</td>
+                            <td data-table="subject"><a href="#">[ 버거의 추억 ]<i>[0]</i></a></td>
+                            <td data-table="write">관리자</td>
+                            <td data-table="date">2019-12-05</td>
+                        </tr>
+                        <tr>
+                            <td data-table="number">998</td>
+                            <td data-table="subject"><a href="#">[ 명문대와 비 명문대 ]<i>[0]</i></a></td>
+                            <td data-table="write">관리자</td>
+                            <td data-table="date">2019-12-05</td>
+                        </tr>
+                        <tr>
+                            <td data-table="number">997</td>
+                            <td data-table="subject"><a href="#">[ 박사 논문 ]<i>[0]</i></a></td>
+                            <td data-table="write">관리자</td>
+                            <td data-table="date">2019-12-05</td>
+                        </tr>
+                        <tr>
+                            <td data-table="number">996</td>
+                            <td data-table="subject"><a href="#">[경쟁입찰 공고]<i>[0]</i></a></td>
+                            <td data-table="write">관리자</td>
+                            <td data-table="date">2019-12-05</td>
+                        </tr>
+                        <tr>
+                            <td data-table="number">995</td>
+                            <td data-table="subject"><a href="#">[ 심의는 어떤 경우에 해야 하는가 ]<i>[0]</i></a></td>
+                            <td data-table="write">관리자</td>
+                            <td data-table="date">2019-12-05</td>
+                        </tr>
+                        <tr>
+                            <td data-table="number">994</td>
+                            <td data-table="subject"><a href="#">[ 말뚝 ]<i>[0]</i></a></td>
+                            <td data-table="write">관리자</td>
+                            <td data-table="date">2019-12-05</td>
+                        </tr>
+                        <tr>
+                            <td data-table="number">993</td>
+                            <td data-table="subject"><a href="#">[ 수요조사 투표 ]<i>[0]</i></a></td>
+                            <td data-table="write">관리자</td>
+                            <td data-table="date">2019-12-05</td>
+                        </tr>
+                        <tr>
+                            <td data-table="number">992</td>
+                            <td data-table="subject"><a href="#">[ 길 ]<i>[0]</i></a></td>
+                            <td data-table="write">관리자</td>
+                            <td data-table="date">2019-12-03</td>
+                        </tr>
+                        <tr>
+                            <td data-table="number">991</td>
+                            <td data-table="subject"><a href="#">[신재생에너지 강화 방침]<i>[0]</i></a></td>
+                            <td data-table="write">관리자</td>
+                            <td data-table="date">2019-12-03</td>
+                        </tr>
+                    </tbody>
+                </table>
 
-        <!-- Inquiry list table  -->
-        <div class="container mt-5">
-        <table class="bbsList">
-	<caption>게시판 목록</caption>
-	<colgroup>
-		<col data-table="number" style="width:7%"/>
-				<col data-table="subject"/>
-		<col data-table="write" style="width:15%"/>
-		<col data-table="date" style="width:15%"/>
-	</colgroup>
-	<thead>
-		<tr>
-			<th scope="col" data-table="number">No.</th>
-						<th scope="col" data-table="subject">제목</th>
-			<th scope="col" data-table="write">작성자</th>
-			<th scope="col" data-table="date">작성일</th>
-		</tr>
-	</thead>
-	<tbody>
-																<tr>
-					<td data-table="number">1000</td>
-										<td data-table="subject"><a href="#">[ 스피커와 앰프 ]<i>[0]</i></a></td>
-					<td data-table="write">관리자</td>
-					<td data-table="date">2019-12-05</td>
-				</tr>
-											<tr>
-					<td data-table="number">999</td>
-										<td data-table="subject"><a href="#">[ 버거의 추억 ]<i>[0]</i></a></td>
-					<td data-table="write">관리자</td>
-					<td data-table="date">2019-12-05</td>
-				</tr>
-											<tr>
-					<td data-table="number">998</td>
-										<td data-table="subject"><a href="#">[ 명문대와 비 명문대 ]<i>[0]</i></a></td>
-					<td data-table="write">관리자</td>
-					<td data-table="date">2019-12-05</td>
-				</tr>
-											<tr>
-					<td data-table="number">997</td>
-										<td data-table="subject"><a href="#">[ 박사 논문 ]<i>[0]</i></a></td>
-					<td data-table="write">관리자</td>
-					<td data-table="date">2019-12-05</td>
-				</tr>
-											<tr>
-					<td data-table="number">996</td>
-										<td data-table="subject"><a href="#">[경쟁입찰 공고]<i>[0]</i></a></td>
-					<td data-table="write">관리자</td>
-					<td data-table="date">2019-12-05</td>
-				</tr>
-											<tr>
-					<td data-table="number">995</td>
-										<td data-table="subject"><a href="#">[ 심의는 어떤 경우에 해야 하는가 ]<i>[0]</i></a></td>
-					<td data-table="write">관리자</td>
-					<td data-table="date">2019-12-05</td>
-				</tr>
-											<tr>
-					<td data-table="number">994</td>
-										<td data-table="subject"><a href="#">[ 말뚝 ]<i>[0]</i></a></td>
-					<td data-table="write">관리자</td>
-					<td data-table="date">2019-12-05</td>
-				</tr>
-											<tr>
-					<td data-table="number">993</td>
-										<td data-table="subject"><a href="#">[ 수요조사 투표 ]<i>[0]</i></a></td>
-					<td data-table="write">관리자</td>
-					<td data-table="date">2019-12-05</td>
-				</tr>
-											<tr>
-					<td data-table="number">992</td>
-										<td data-table="subject"><a href="#">[ 길 ]<i>[0]</i></a></td>
-					<td data-table="write">관리자</td>
-					<td data-table="date">2019-12-03</td>
-				</tr>
-											<tr>
-					<td data-table="number">991</td>
-										<td data-table="subject"><a href="#">[신재생에너지 강화 방침]<i>[0]</i></a></td>
-					<td data-table="write">관리자</td>
-					<td data-table="date">2019-12-03</td>
-				</tr>
-					</tbody>
-</table>
-            
-            <div class="d-flex justify-content-lg-between align-items-lg-center  my-5">
-                <form action="">
-                    <input type="hidden" name="board_id" value="board_gallery02" />
-                    <input type="hidden" name="start" value="0" />
-                    <div class="search_bbs">
-                        <!-- 검색 -->
-                        <div class="search">
-    
-                            <select name="search_key" id="searchType">
-                                <option value="">전체</option>
-                                <option value="title"> 제목</option>
-                                <option value="name">작성자</option>
-                            </select>
-                            <input type="text" id="keyword" name="keyword" value="">
-                            <input type="submit" class="button" value="검색">
-    
+                <div class="d-flex justify-content-lg-between align-items-lg-center  my-5">
+                    <form action="">
+                        <input type="hidden" name="board_id" value="board_gallery02" />
+                        <input type="hidden" name="start" value="0" />
+                        <div class="search_bbs">
+                            <!-- 검색 -->
+                            <div class="search">
+
+                                <select name="search_key" id="searchType">
+                                    <option value="">전체</option>
+                                    <option value="title"> 제목</option>
+                                    <option value="name">작성자</option>
+                                </select>
+                                <input type="text" id="keyword" name="keyword" value="">
+                                <input type="submit" class="button" value="검색">
+
+                            </div>
                         </div>
+                    </form>
+
+                    <div class="btn">
+                        <a href="#" class="button">글쓰기</a>
                     </div>
-                </form>
-
-                <div class="btn">
-                    <a href="#" class="button">글쓰기</a>
                 </div>
+
+
+                <div>
+                    <hr style="border-top: dotted 1px;" />
+                </div>
+
+                <ul class="pagination">
+                    <li class="page-item">
+                        <a class="page-link btn_first" href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link btn_end" href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    </li>
+                </ul>
+
+
             </div>
-
-
-            <div>
-                <hr style="border-top: dotted 1px;" />
-            </div>
-
-            <ul class="pagination">
-                <li class="page-item">
-                    <a class="page-link btn_first" href="#" aria-label="Previous">
-                        <span aria-hidden="true">&laquo;</span>
-                    </a>
-                </li>
-                <li class="page-item"><a class="page-link" href="#">1</a></li>
-                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                <li class="page-item">
-                    <a class="page-link btn_end" href="#" aria-label="Next">
-                        <span aria-hidden="true">&raquo;</span>
-                    </a>
-                </li>
-            </ul>
-
-
-        </div>
 
     </section>
 
 
 </main>
 
-<?php include("./inc/footer.html")?>
+<?php include("./inc/footer.php")?>
