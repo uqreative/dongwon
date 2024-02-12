@@ -60,7 +60,7 @@
                 </div>
             </div>
             <div class="col-lg-6">
-                <div class="history-item border-bottom border-light-subtle">
+                <div class="history-item border-bottom border-light-subtle" >
                     <div class="d-flex align-items-baseline gap-3 history-item__date" data-aos="fade-up"
                         data-aos-delay="420" data-aos-easing="ease-in-out" data-aos-duration="700"
                         data-aos-anchor-placement="top-center">
@@ -74,20 +74,26 @@
                     </ul>
                 </div>
                 <div class="history-item border-bottom border-light-subtle">
-                    <div class="d-flex align-items-baseline gap-3 history-item__date">
+                    <div class="d-flex align-items-baseline gap-3 history-item__date" data-aos="fade-up"
+                        data-aos-delay="420" data-aos-easing="ease-in-out" data-aos-duration="700"
+                        data-aos-anchor-placement="top-center">
                         <h4 class="fw-light">2007.</h4>
                         <p class="mb-0"> 07. 16</p>
                     </div>
-                    <ul>
+                    <ul data-aos="fade-up" data-aos-delay="560" data-aos-easing="ease-in-out" data-aos-duration="700"
+                        data-aos-anchor-placement="top-center">
                         <li class="fs-5">㈜쏠라미 설립(태양광 유지보수관리, 컨설팅)</li>
                     </ul>
                 </div>
                 <div class="history-item border-bottom border-light-subtle">
-                    <div class="d-flex align-items-baseline gap-3 history-item__date">
+                    <div class="d-flex align-items-baseline gap-3 history-item__date" data-aos="fade-up"
+                        data-aos-delay="420" data-aos-easing="ease-in-out" data-aos-duration="700"
+                        data-aos-anchor-placement="top-center">
                         <h4 class="fw-light">2005.</h4>
                         <p class="mb-0"> 02. 18</p>
                     </div>
-                    <ul>
+                    <ul data-aos="fade-up" data-aos-delay="560" data-aos-easing="ease-in-out" data-aos-duration="700"
+                        data-aos-anchor-placement="top-center">
                         <li class="fs-5">㈜동원종합건설 법인설립(토목, 조경)</li>
                     </ul>
                 </div>
@@ -96,29 +102,38 @@
         <article class="row">
             <div class="col-lg-6">
 
-                <h3 class="fw-light fs-1 py-5">환경을 생각하던 기업, <span class="orange-text fw-semibold">태양을 품다.</span></h3>
+                <h3 class="fw-light fs-1 py-5"  data-aos="fade-up"
+                        data-aos-delay="420" data-aos-easing="ease-in-out" data-aos-duration="700"
+                        data-aos-anchor-placement="top-center">환경을 생각하던 기업, <span class="orange-text fw-semibold">태양을 품다.</span></h3>
 
                 <div class="history-item border-bottom border-light-subtle">
-                    <div class="d-flex align-items-baseline gap-3 history-item__date">
+                    <div class="d-flex align-items-baseline gap-3 history-item__date" data-aos="fade-up"
+                        data-aos-delay="420" data-aos-easing="ease-in-out" data-aos-duration="700"
+                        data-aos-anchor-placement="top-center">
                         <h4 class="fw-light">2007.</h4>
                         <p class="mb-0"> 07. 16</p>
                     </div>
-                    <ul>
+                    <ul data-aos="fade-up" data-aos-delay="560" data-aos-easing="ease-in-out" data-aos-duration="700"
+                        data-aos-anchor-placement="top-center">
                         <li class="fs-5">㈜쏠라미 설립(태양광 유지보수관리, 컨설팅)</li>
                     </ul>
                 </div>
                 <div class="history-item border-bottom border-light-subtle">
-                    <div class="d-flex align-items-baseline gap-3 history-item__date">
+                    <div class="d-flex align-items-baseline gap-3 history-item__date" data-aos="fade-up"
+                        data-aos-delay="420" data-aos-easing="ease-in-out" data-aos-duration="700"
+                        data-aos-anchor-placement="top-center">
                         <h4 class="fw-light">2005.</h4>
                         <p class="mb-0"> 02. 18</p>
                     </div>
-                    <ul>
+                    <ul data-aos="fade-up" data-aos-delay="560" data-aos-easing="ease-in-out" data-aos-duration="700"
+                        data-aos-anchor-placement="top-center">
                         <li class="fs-5">㈜동원종합건설 법인설립(토목, 조경)</li>
                     </ul>
                 </div>
             </div>
             <div class="col-lg-6">
-                <div>
+                <div data-aos="fade-up" data-aos-delay="300" data-aos-easing="ease-in-out" data-aos-duration="700"
+                        data-aos-anchor-placement="top-center">
                     <img src="./images/content/img_history02.jpg" alt="">
                 </div>
             </div>

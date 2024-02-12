@@ -46,40 +46,46 @@
     </section>
 
     <section class="mb-5">
-        <div class="container">
+        <div class="container" data-aos="fade-up" data-aos-delay="300" data-aos-easing="ease-in-out" data-aos-duration="700" data-aos-anchor-placement="top-center">
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
-                    <div class="card h-100">
-                        <img src="./images/content/blog-list_thumb01.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">저탄소 주유소 에너지 전환 사업(파일 다운로드 가능)</h5>
+                    <a href="#">
+                        <div class="card h-100">
+                            <img src="./images/content/blog-list_thumb01.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">저탄소 주유소 에너지 전환 사업(파일 다운로드 가능)</h5>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary">Last updated 3 mins ago</small>
+                            </div>
                         </div>
-                        <div class="card-footer">
-                            <small class="text-body-secondary">Last updated 3 mins ago</small>
-                        </div>
-                    </div>
+                    </a>
                 </div>
                 <div class="col">
-                    <div class="card h-100">
-                        <img src="./images/content/blog-list_thumb02.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">ESS 기술분석 - 파트너십 업체 데스틴파워(주) 임직원 여러분</h5>
+                    <a href="#">
+                        <div class="card h-100">
+                            <img src="./images/content/blog-list_thumb02.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">ESS 기술분석 - 파트너십 업체 데스틴파워(주) 임직원 여러분</h5>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary">2021-03-15</small>
+                            </div>
                         </div>
-                        <div class="card-footer">
-                            <small class="text-body-secondary">2021-03-15</small>
-                        </div>
-                    </div>
+                    </a>
                 </div>
                 <div class="col">
-                    <div class="card h-100">
-                        <img src="./images/content/blog-list_thumb01.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">저탄소 주유소 에너지 전환 사업(파일 다운로드 가능)</h5>
+                    <a href="#">
+                        <div class="card h-100">
+                            <img src="./images/content/blog-list_thumb01.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">저탄소 주유소 에너지 전환 사업(파일 다운로드 가능)</h5>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary">2020-06-25</small>
+                            </div>
                         </div>
-                        <div class="card-footer">
-                            <small class="text-body-secondary">2020-06-25</small>
-                        </div>
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>

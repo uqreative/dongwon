@@ -46,13 +46,13 @@
     </section>
 
     <section>
-        <div class="container">  
+        <div class="container"  data-aos="fade-up" data-aos-delay="100" data-aos-easing="ease-in-out" data-aos-duration="500" data-aos-anchor-placement="top-center">  
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3216.34428304117!2d127.46226627627844!3d36.27969539686676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35654f616e4db1a1%3A0xc84e7009047deb32!2s61%20Sannae-ro%201305beon-gil%2C%20Dong-gu%2C%20Daejeon%2C%20South%20Korea!5e0!3m2!1sen!2sid!4v1706604794258!5m2!1sen!2sid" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <div class="container mt-5">
             <div class="row border border-light-subtle" style="margin-bottom:100px;">
                 <div class="col-lg-9">
-                    <address class="p-4 mb-0">
+                    <address class="p-4 mb-0"  data-aos="fade-up" data-aos-delay="100" data-aos-easing="ease-in-out" data-aos-duration="400" data-aos-anchor-placement="top-bottom">
                         <div class="d-flex gap-3">
                             <h5>ADD</h5>
                             <p class="mb-0">34705, 대전광역시 동구 산내로 1305번길 61, 2층(낭월동)</p>
@@ -72,7 +72,7 @@
                     </address>
                 </div>
                 <div class="col-lg-3">
-                    <div class="h-100 d-flex justify-content-center ">
+                    <div class="h-100 d-flex justify-content-center "  data-aos="fade-up" data-aos-delay="200" data-aos-easing="ease-in-out" data-aos-duration="600" data-aos-anchor-placement="top-bottom">
                         <a href="https://maps.app.goo.gl/wobtUxLvLkTrQVSn6" class="btn btn-outline-secondary btn-lg rounded-0 align-self-center py-3 px-5" target="blank">지도보기</a>
                     </div>
                 </div>

@@ -46,7 +46,8 @@
 
     </section>
 
-    <section class="cert-gallery">
+    <section class="cert-gallery"  data-aos="fade-up" data-aos-delay="300" data-aos-easing="ease-in-out" data-aos-duration="700"
+                        data-aos-anchor-placement="top-center">
 
         <div class="container">
             <div class="row row-cols-1 row-cols-md-3 justify-content-center g-5">

@@ -15,9 +15,9 @@
             <li class="nav-item">
                 <a class="nav-link active" href="#">컨설팅/견적문의</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
                 <a class="nav-link" href="#">제품소개</a>
-            </li>
+            </li> -->
         </ul>
     </div>
 </div>

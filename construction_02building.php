@@ -2,7 +2,7 @@
 <?php include("./inc/header.html")?>
 
 
-<div class="hero business">
+<div class="hero construction">
     <div class="text-center">
         <h3>시공사례</h3>
         <h4 class="text-white fw-semibold">업계의 중심에서 태양광 문화를 이끄는 기업 동원이엔씨입니다.</h4>
@@ -13,17 +13,17 @@
     <div class="container">
         <ul class="nav nav-pills nav-fill justify-content-start justify-content-lg-center flex-nowrap">
             <li class="nav-item">
-                <a class="nav-link" href="./business_01land.php">토지</a>
+                <a class="nav-link" href="./construction_01land.php">토지</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active" href="./business_02building.php">건물 태양광</a>
+                <a class="nav-link active" href="./construction_02building.php">건물 태양광</a>
             </li>
         </ul>
     </div>
 </div>
 
 
-<main class="business-building" >
+<main class="construction-building" >
     <section class="sub-menu_tittle">
 
         <h4 data-aos="fade-up" data-aos-delay="300" data-aos-easing="ease-in-out" data-aos-duration="700"
@@ -34,9 +34,9 @@
 
     </section>
 
-    <section class="business-building__list">
+    <section class="construction-building__list">
     
-        <div class="container">
+        <div class="container" >
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
                     <a href="#">
@@ -64,7 +64,7 @@
                 <div class="col">
                     <a href="#">
                         <div class="card shadow-sm  h-100">
-                            <img src="./images/content/business/thumb_03.jpg" class="card-img-top" alt="산, 마루, 신라 태양광발전소/300kW">
+                            <img src="./images/content/business/thumb_03.JPG" class="card-img-top" alt="산, 마루, 신라 태양광발전소/300kW">
                             <div class="card-body">
                                 <h5 class="card-title">산, 마루, 신라 태양광발전소/300kW</h5>
                                 <p class="card-text">2022-01-18</p>
@@ -75,7 +75,7 @@
                 <div class="col">
                     <a href="#">
                         <div class="card shadow-sm  h-100">
-                            <img src="./images/content/business/thumb_04.jpg" class="card-img-top" alt="썬파워일 태양광발전소/500kW">
+                            <img src="./images/content/business/thumb_04.JPG" class="card-img-top" alt="썬파워일 태양광발전소/500kW">
                             <div class="card-body">
                                 <h5 class="card-title">썬파워일 태양광발전소/500kW</h5>
                                 <p class="card-text">2022-01-18</p>
@@ -86,7 +86,7 @@
                 <div class="col">
                     <a href="#">
                         <div class="card shadow-sm  h-100">
-                            <img src="./images/content/business/thumb_05.jpg" class="card-img-top" alt="무주 발전소 / 3.3mW">
+                            <img src="./images/content/business/thumb_05.JPG" class="card-img-top" alt="무주 발전소 / 3.3mW">
                             <div class="card-body">
                                 <h5 class="card-title">무주 발전소 / 3.3mW</h5>
                                 <p class="card-text">2021-01-15</p>

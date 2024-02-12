@@ -210,7 +210,11 @@ header>nav .dropdown .dropdown-menu .dropdown-item {
 }
 header>nav .dropdown:hover .dropdown-menu {
     display: block;
-    
+}
+header>nav .collapse.navbar-collapse #btn-lang:hover,
+header>nav .collapse.navbar-collapse #btn-manager:hover,
+header>nav .collapse.navbar-collapse #btn-menu-offcanvas:hover {
+    background-color: #d2dbe45e !important;
 }
 
 /* ==========================================================================
@@ -338,6 +342,14 @@ header>nav .dropdown:hover .dropdown-menu {
 .hero.business {
     height: calc(50vh + 76px);
     padding-top: 29vh;
+    background-image: url(../images/content/img_sub_visual05.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 75px;
+}
+.hero.construction {
+    height: calc(50vh + 76px);
+    padding-top: 29vh;
     background-image: url(../images/content/img_sub_visual02.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -347,6 +359,14 @@ header>nav .dropdown:hover .dropdown-menu {
     height: calc(50vh + 76px);
     padding-top: 29vh;
     background-image: url(../images/content/img_sub_visual03.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 75px;
+}
+.hero.solar-introduction {
+    height: calc(50vh + 76px);
+    padding-top: 29vh;
+    background-image: url(../images/content/img_sub_visual04.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: 75px;
@@ -694,7 +714,7 @@ section.related-sites>div.container>.related-sites-logo {
 }
 
 .go-to-top>a {
-    bottom: 0;
+    bottom: 0px;
     right: 200px;
     background-color: white;
     border: solid 1px #363636;
@@ -849,38 +869,17 @@ section.greetings .container h3.about-tit {
 }
 
 /* sub-page tittle  */
-main.about-history section.sub-menu_tittle,
-main.about-orgcart section.sub-menu_tittle,
-main.about-cert section.sub-menu_tittle,
-main.about-corp_blog section.sub-menu_tittle,
-main.about-direction section.sub-menu_tittle,
-main.business-land section.sub-menu_tittle,
-main.business-building section.sub-menu_tittle,
-main.inquiry-from section.sub-menu_tittle {
+main section.sub-menu_tittle {
     padding: 100px 0 120px 0;
     text-align: center;
 }
 
-main.about-history section.sub-menu_tittle>h4,
-main.about-orgcart section.sub-menu_tittle>h4,
-main.about-cert section.sub-menu_tittle>h4,
-main.about-corp_blog section.sub-menu_tittle>h4,
-main.about-direction section.sub-menu_tittle>h4,
-main.business-land section.sub-menu_tittle>h4,
-main.business-building section.sub-menu_tittle>h4,
-main.inquiry-from section.sub-menu_tittle>h4 {
+main section.sub-menu_tittle>h4 {
     font-size: 28px;
     font-weight: 400;
 }
 
-main.about-history section.sub-menu_tittle>h3,
-main.about-orgcart section.sub-menu_tittle>h3,
-main.about-cert section.sub-menu_tittle>h3,
-main.about-corp_blog section.sub-menu_tittle>h3,
-main.about-corp_blog section.sub-menu_tittle>h3,
-main.business-land section.sub-menu_tittle>h3,
-main.business-building section.sub-menu_tittle>h3,
-main.inquiry-from section.sub-menu_tittle>h3 {
+main section.sub-menu_tittle>h3 {
     font-size: 42px;
     font-weight: 300;
 }
@@ -950,13 +949,14 @@ main.about-cert section.cert-gallery {
     margin-bottom: 100px;
 }
 
-main.business-land section.business-land__list .card,
-main.business-building section.business-building__list .card {
+main.construction-land section.construction-land__list .card,
+main.construction-building section.construction-building__list .card,
+main.business-product section.product__list .card {
     border-color: whitesmoke;
 }
 
-main.business-land section.business-land__list .card-img-top,
-main.business-building section.business-building__list .card-img-top {
+main.construction-land section.construction-land__list .card-img-top,
+main.construction-building section.construction-building__list .card-img-top {
     height: 320px;
 }
 
@@ -984,6 +984,15 @@ main.business-building section.business-building__list .card-img-top {
 main.inquiry-from section.inquiry__list .inquiry__step-list div.d-flex p:nth-child(1){
     color: #ff8c46;
 }
+
+main.product-desc {  margin-bottom: 120px; }
+main.about-corp_blog {  margin-bottom: 140px; }
+main.about-orgcart section.org-chart { margin-bottom: 120px; }
+
+
+
+
+
 
 /* ==========================================================================
 ================================= mobile phone view ========================= */
@@ -1167,7 +1176,6 @@ main.inquiry-from section.inquiry__list .inquiry__step-list div.d-flex p:nth-chi
     }
 
 
-
 }
 
 /* ==========================================================================
@@ -1211,7 +1219,6 @@ main.inquiry-from section.inquiry__list .inquiry__step-list div.d-flex p:nth-chi
     .slick-list.draggable {
         padding: 0px 10px !important;
     }
-
 
     footer.container-fluid .footer-logo {
         width: 50%;

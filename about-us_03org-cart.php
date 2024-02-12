@@ -46,24 +46,17 @@
     </section>
 
 
-    <section class="orgcart">
-
+    <section class="org-chart">
         <div class="container">
-            <h4 class="level-1 rectangle">㈜동원이엔씨</h4>
-            <ol class="level-2-wrapper">
-                <li>
-                    <h4 class="level-2 rectangle">대표이사</h4>
-                </li>
-                <li>
-                    <h4 class="level-2 rectangle">품질관리부</h4>
-                </li>
-            </ol>
+            <div class=" border p-0 m-0"  data-aos="fade-up" data-aos-delay="300" data-aos-easing="ease-in-out" data-aos-duration="700"
+                        data-aos-anchor-placement="top-center">
+                <img src="./images/content/org-cart/org-cart_dekstop.svg" class="img-fluid d-none d-lg-block " alt="">
+                <img src="./images/content/org-cart/org-cart_mobile.svg" class="img-fluid d-block d-lg-none " alt="">
+            </div>
         </div>
-
     </section>
 
 </main>
 
-<!-- <h1  class="text-center py-5">Organization Chart</h1> -->
 
 <?php include("./inc/footer.html")?>
