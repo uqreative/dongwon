@@ -2,18 +2,21 @@
 <?php include("./inc/header.php")?>
 
 
-<div class="hero business">
+<div class="hero inquiry">
     <div class="text-center">
-        <h3>시공사례</h3>
-        <h4 class="text-white fw-semibold">업계의 중심에서 태양광 문화를 이끄는 기업 동원이엔씨입니다.</h4>
+        <h3>컨설팅/견적문의</h3>
+        <h4 class="text-white fw-semibold">전문가의 전략적 분석, 고객의 최대 이익 이것이 원칙입니다.</h4>
     </div>
 </div>
 
 <div class="container-fluid sub-menu">
     <div class="container">
-        <ul class="nav nav-pills nav-fill justify-content-start justify-content-lg-center flex-nowrap">
+        <ul class="nav nav-pills nav-fill justify-content-center justify-content-lg-center flex-nowrap">
             <li class="nav-item">
-                <a class="nav-link active" href="./business_01product.php">제품소개</a>
+                <a class="nav-link active" href="./inquiry_01inquiryform.php">컨설팅/견적문의</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./inquiry_02introduction_item.php">제품소개</a>
             </li>
         </ul>
     </div>
@@ -23,11 +26,9 @@
 <main class="product-desc">
     <section class="sub-menu_tittle">
 
-        <h4 data-aos="fade-up" data-aos-delay="300" data-aos-easing="ease-in-out" data-aos-duration="700"
-            data-aos-anchor-placement="top-bottom">제제품 설명
+        <h4 data-aos="fade-up" data-aos-delay="300" data-aos-easing="ease-in-out" data-aos-duration="700" >제제품 설명
         </h4>
-        <h3 data-aos="fade-up" data-aos-delay="450" data-aos-easing="ease-in-out" data-aos-duration="700"
-            data-aos-anchor-placement="top-bottom">Product Description</h3>
+        <h3 data-aos="fade-up" data-aos-delay="450" data-aos-easing="ease-in-out" data-aos-duration="700" >Product Description</h3>
 
     </section>
 
@@ -39,7 +40,7 @@
                 </div>
                 <div class="col-lg-6">
 
-                    <div class="ps-lg-4 mt-lg-5">
+                    <div class="ps-lg-4 mt-4 mt-lg-5">
 
                         <h2 class="fw-normal fs-1">한화모듈</h2>
                     
@@ -107,7 +108,7 @@
             </div>
 
             <div class="btn_area">
-                <a href="./business_01product.php" class="button">목록</a>
+                <a href="./inquiry_02introduction_item.php" class="button">목록</a>
             </div>
 
         </div>

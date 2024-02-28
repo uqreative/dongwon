@@ -16,15 +16,15 @@
             </div>
           </div>
           <div class="col-lg-10">
-            <div class="d-flex flex-column flex-md-row flex-lg-row align-items-center align-items-md-center h-100 gap-3 mt-4 mt-lg-0">
+            <div class="d-flex flex-column flex-lg-row align-items-center align-items-md-center h-100 gap-3 mt-4 mt-lg-0">
               <p class="text-center text-lg-start">㈜동원이엔씨</p>
-              <div class="vr align-self-center opacity-100 d-none d-md-block " ></div>
+              <div class="vr align-self-center opacity-100 d-none d-lg-block " ></div>
               <p class="text-center text-lg-start">대표&nbsp; :&nbsp; 강준호</p> 
-              <div class="vr align-self-center opacity-100 d-none d-md-block " ></div>
+              <div class="vr align-self-center opacity-100 d-none d-lg-block " ></div>
               <p class="text-center text-lg-start">사업자번호&nbsp; :&nbsp; 314-81-91485</p> 
-              <div class="vr align-self-center opacity-100 d-none d-md-block " ></div>
+              <div class="vr align-self-center opacity-100 d-none d-lg-block " ></div>
               <p class="text-center text-lg-start">TEL&nbsp; :&nbsp; 042-823-0799</p> 
-              <div class="vr align-self-center opacity-100 d-none d-md-block " ></div>
+              <div class="vr align-self-center opacity-100 d-none d-lg-block " ></div>
               <p class="text-center text-lg-start">FAX&nbsp; :&nbsp; 042-527-0112</p>
             </div>
           </div>
@@ -38,18 +38,18 @@
           <p class="text-center text-lg-start">Copyright© DONGWONEnC. All Rights Reserved. Designed by KOWEB.</p>
         </div>
       </div>
-      <div class="col-lg-2">
+      <!-- <div class="col-lg-2">
         <div class="d-flex justify-content-center justify-content-lg-end gap-2 mt-4 mt-lg-0">
           <a href="#"><img src="./images/footer-icon-youtube.png" class="img-fluid" alt=""></a>
           <a href="#"><img src="./images/footer-icon-instagram.png" class="img-fluid" alt=""></a>
           <a href="#"><img src="./images/footer-icon-facebook.png" class="img-fluid" alt=""></a>
           <a href="#"><img src="./images/footer-icon-twitter.png" class="img-fluid" alt=""></a>
-        </div>
-        <select class="form-select mt-4 mt-lg-3 w-auto mx-auto me-lg-0" aria-label="family-site" data-bs-theme="dark">
+        </div> -->
+        <!-- <select class="form-select mt-4 mt-lg-3 w-auto mx-auto me-lg-0" aria-label="family-site" data-bs-theme="dark">
           <option value="패밀리 사이트" selected>패밀리 사이트</option>
           <option value="패밀리 사이트 2" selected>패밀리 사이트 2.0</option>
           <option value="패밀리 사이트 3" selected>패밀리 사이트 3.0</option>
-        </select>
+        </select> -->
       </div>
     </div>
   </div>
@@ -76,8 +76,8 @@
   <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js"></script>
 
   <!-- Swiper JS -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
-
+  <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="js/design.js"></script>
   <script>
 

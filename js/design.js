@@ -23,6 +23,10 @@ $(window).scroll(function(){
     $("#icon-lang-white").addClass("d-none");
     $("#icon-lang-black").removeClass("d-none");
     $("#icon-lang-black").addClass("d-inline-block");
+    $("#mobileNavbarToggler").removeClass("mobile-collapse-bg-dark");
+
+    $("#humburger-icon").removeClass("mobile-toggle-white");
+    $("#humburger-icon").addClass("mobile-toggle-black");
   }
 
   else{
@@ -45,6 +49,10 @@ $(window).scroll(function(){
     $("#icon-lang-black").addClass("d-none");
     $("#icon-lang-white").removeClass("d-none");
     $("#icon-lang-white").addClass("d-inline-block");
+    $("#mobileNavbarToggler").addClass("mobile-collapse-bg-dark");
+
+    $("#humburger-icon").removeClass("mobile-toggle-black");
+    $("#humburger-icon").addClass("mobile-toggle-white");
   }
 })
 
@@ -173,8 +181,6 @@ lenis.on('scroll', (e) => {
 
 
 
-
-
 function raf(time) {
   lenis.raf(time)
   requestAnimationFrame(raf)
@@ -183,3 +189,21 @@ function raf(time) {
 requestAnimationFrame(raf)
 
 
+// hero carousel index page 
+var swiper = new Swiper(".homepage-main-carousel", {
+  spaceBetween: 30,
+  loop: true,
+  centeredSlides: true,
+  autoplay: {
+    delay: 30000,
+    disableOnInteraction: false,
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
