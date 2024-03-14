@@ -94,6 +94,10 @@
             <img src="./images/inquiry_01inquiryform.PNG" class="img-fluid" alt="">
         </div>
 
+        <div class="not-login">
+
+        </div>
+
         <!-- Inquiry list table  -->
         <div class="container mt-5">
             <!-- <table class="bbsList">

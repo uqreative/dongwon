@@ -8,7 +8,7 @@
 <footer class="container-fluid ">
   <div class="container">
     <div class="row">
-      <div class="col-lg-10">
+      <div class="col ">
         <div class="row">
           <div class=" col-lg-2">
             <div class="text-center text-lg-start ">

@@ -62,14 +62,14 @@
             <li class="splide__slide">
               
               <a href="./construction_01land_view.php">
-                <div class="project-item-1 px-4 d-flex flex-column flex-md-row flex-lg-row justify-content-end justify-content-md-between justify-content-lg-between align-items-md-end align-items-lg-end">
+                <div class="projects project-item-1 px-4 d-flex flex-column flex-md-row flex-lg-row justify-content-end justify-content-md-between justify-content-lg-between align-items-md-end align-items-lg-end">
                   <p class="text-white mb-1 mb-md-4 mb-lg-4">온누리 태양광발전소/1.4MW</p>
-                  <div class="d-flex flex-row align-items-center  align-items-lg-center gap-1 gap-lg-2 mb-3 mb-lg-4">
+                  <!-- <div class="d-flex flex-row align-items-center  align-items-lg-center gap-1 gap-lg-2 mb-3 mb-lg-4">
                     <div>
                       <img src="./images/icon-location_product-section.svg" class="d-block" width="20" height="26" alt="">
                     </div>
                     <p class="text-white mb-0">경북 구미 옥성면</p>
-                  </div>
+                  </div> -->
                 </div>
               </a>
               
@@ -77,14 +77,14 @@
             <li class="splide__slide">
               
               <a href="./construction_01land_view.php">
-                <div class="project-item-2 px-4 d-flex flex-column flex-md-row flex-lg-row justify-content-end justify-content-md-between justify-content-lg-between align-items-md-end align-items-lg-end">
+                <div class="projects project-item-2 px-4 d-flex flex-column flex-md-row flex-lg-row justify-content-end justify-content-md-between justify-content-lg-between align-items-md-end align-items-lg-end">
                   <p class="text-white mb-1 mb-md-4 mb-lg-4">한동1호 태양광발전소/500kW</p>
-                  <div class="d-flex flex-row align-items-center   align-items-lg-center gap-1 gap-lg-2 mb-3 mb-lg-4">
+                  <!-- <div class="d-flex flex-row align-items-center   align-items-lg-center gap-1 gap-lg-2 mb-3 mb-lg-4">
                     <div>
                       <img src="./images/icon-location_product-section.svg" width="20" height="26" alt="">
                     </div>
                     <p class="text-white mb-0">경북 구미 옥성면</p>
-                  </div>
+                  </div> -->
                 </div>
               </a>
 
@@ -92,14 +92,14 @@
             <li class="splide__slide">
               
               <a href="./construction_01land_view.php">
-                <div class="project-item-3 px-4 d-flex flex-column flex-md-row flex-lg-row justify-content-end justify-content-md-between justify-content-lg-between align-items-md-end align-items-lg-end">
+                <div class="projects project-item-3 px-4 d-flex flex-column flex-md-row flex-lg-row justify-content-end justify-content-md-between justify-content-lg-between align-items-md-end align-items-lg-end">
                   <p class="text-white mb-1 mb-md-4 mb-lg-4">산, 마루, 신라 태양광발전소/300kW</p>
-                  <div class="d-flex flex-row  align-items-center    align-items-lg-center gap-1 gap-lg-2 mb-3 mb-lg-4">
+                  <!-- <div class="d-flex flex-row  align-items-center    align-items-lg-center gap-1 gap-lg-2 mb-3 mb-lg-4">
                     <div>
                       <img src="./images/icon-location_product-section.svg"  width="20" height="26" alt="">
                     </div>
                     <p class="text-white mb-0">경북 구미 옥성면</p>
-                  </div>
+                  </div> -->
                 </div>
               </a>
             
@@ -107,14 +107,14 @@
             <li class="splide__slide">
               
               <a href="./construction_01land_view.php">
-                <div class="project-item-4 px-4 d-flex flex-column flex-md-row flex-lg-row justify-content-end justify-content-md-between justify-content-lg-between align-items-md-end align-items-lg-end">
+                <div class="projects project-item-4 px-4 d-flex flex-column flex-md-row flex-lg-row justify-content-end justify-content-md-between justify-content-lg-between align-items-md-end align-items-lg-end">
                   <p class="text-white mb-1 mb-md-4 mb-lg-4">썬파워일 태양광발전소/500kW</p>
-                  <div class="d-flex flex-row align-items-center    align-items-lg-center gap-1 gap-lg-2 mb-3 mb-lg-4">
+                  <!-- <div class="d-flex flex-row align-items-center    align-items-lg-center gap-1 gap-lg-2 mb-3 mb-lg-4">
                     <div>
                       <img src="./images/icon-location_product-section.svg"  width="20" height="26" alt="">
                     </div>
                     <p class="text-white mb-0">경북 구미 옥성면</p>
-                  </div>
+                  </div> -->
                 </div>
               </a>
               
@@ -122,14 +122,14 @@
             <li class="splide__slide">
               
               <a href="./construction_01land_view.php">
-                <div class="project-item-5 px-4 d-flex flex-column flex-md-row flex-lg-row justify-content-end justify-content-md-between justify-content-lg-between align-items-md-end align-items-lg-end">
+                <div class="projects project-item-5 px-4 d-flex flex-column flex-md-row flex-lg-row justify-content-end justify-content-md-between justify-content-lg-between align-items-md-end align-items-lg-end">
                 <p class="text-white mb-1 mb-md-4 mb-lg-4">무주 발전소 / 3.3mW</p>
-                <div class="d-flex flex-row align-items-center  align-items-lg-center gap-1 gap-lg-2 mb-3 mb-lg-4">
+                <!-- <div class="d-flex flex-row align-items-center  align-items-lg-center gap-1 gap-lg-2 mb-3 mb-lg-4">
                   <div>
                     <img src="./images/icon-location_product-section.svg" width="20" height="26" alt="">
                   </div>
                   <p class="text-white mb-0">경북 구미 옥성면</p>
-                </div>
+                </div> -->
               </div>
               </a>
 
@@ -137,14 +137,14 @@
             <li class="splide__slide">
 
               <a href="./construction_01land_view.php">
-                <div class="project-item-6 px-4 d-flex flex-column flex-md-row flex-lg-row justify-content-end justify-content-md-between justify-content-lg-between align-items-md-end align-items-lg-end">
+                <div class="projects project-item-6 px-4 d-flex flex-column flex-md-row flex-lg-row justify-content-end justify-content-md-between justify-content-lg-between align-items-md-end align-items-lg-end">
                   <p class="text-white mb-1 mb-md-4 mb-lg-4">마강리 발전소 / 2.4mW</p>
-                  <div class="d-flex flex-row align-items-center  align-items-lg-center gap-1 gap-lg-2 mb-3 mb-lg-4">
+                  <!-- <div class="d-flex flex-row align-items-center  align-items-lg-center gap-1 gap-lg-2 mb-3 mb-lg-4">
                     <div>
                       <img src="./images/icon-location_product-section.svg"  width="20" height="26" alt="">
                     </div>
                     <p class="text-white mb-0">경북 구미 옥성면</p>
-                  </div>
+                  </div> -->
                 </div>
               </a>
 
@@ -293,93 +293,56 @@
     </div>
 
     <div class="container mt-3">
-      
-    
-    <section id="news-list" class="splide mt-2 mt-lg-5" aria-label="Basic Structure ">
-      
-      <div class="splide__arrows">
-        <button class="splide__arrow splide__arrow--prev">
-          <img src="./images/icon-left-arrow_news.svg" alt="">
-        </button>
-        <button class="splide__arrow splide__arrow--next">
-          <img src="./images/icon-right-arrow_news.svg" alt="">
-        </button>
+
+      <div class="swiper newsSlider">
+        <div class="swiper-wrapper">
+          
+          <div class="swiper-slide">
+            <div class="news-list_item">
+              <div class="news-list_text-content" style="">
+                <div >
+                  <p>(주)동원이엔씨는 전문가의 전략적 분석, 고객의 최대 이익을 원칙으로 합니다.</p>
+                  <p class="pt-2 mb-0 border-top">2023/12/18</p>
+                </div>
+              </div>
+              <div class="news-list_item_image-content">
+                <img src="./images/news03.jpg" class="img-fluid " alt="">
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="news-list_item">
+              <div class="news-list_text-content" style="">
+                <div >
+                  <p>(주)동원이엔씨는 전문가의 전략적 분석, 고객의 최대 이익을 원칙으로 합니다.</p>
+                  <p class="pt-2 mb-0 border-top">2023/12/18</p>
+                </div>
+              </div>
+              <div class="news-list_item_image-content">
+                <img src="./images/news02.jpg" class="img-fluid " alt="">
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="news-list_item">
+              <div class="news-list_text-content" style="">
+                <div >
+                  <p>(주)동원이엔씨는 전문가의 전략적 분석, 고객의 최대 이익을 원칙으로 합니다.</p>
+                  <p class="pt-2 mb-0 border-top">2023/12/18</p>
+                </div>
+              </div>
+              <div class="news-list_item_image-content">
+                <img src="./images/news01.jpg" class="img-fluid " alt="">
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
       </div>
-      
-      <div class="splide__track">
-        <ul class="splide__list">
-          <li class="splide__slide">
-            <div class="splide__slide__container">
-              <div class="row">
-                <div class="col-lg-2 order-last order-lg-first ">
-                  <div class="card news">
-                    <div class="card-body">
-                      <div class="h-100 d-flex flex-column align-items-start ">
-                        <div>
-                          <p class="card-text">(주)동원이엔씨는 전문가의 전략적 분석, 고객의 최대 이익을 원칙으로 합니다.</p>
-                        </div>
-                        <div class="mt-auto w-100">
-                          <p class="pt-2 mb-0 border-top">2023/12/18</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-10 order-first order-lg-last">
-                  <img src="./images/news03.jpg" alt="">
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="splide__slide">
-            <div class="splide__slide__container">
-              <div class="row">
-                <div class="col-lg-2 order-last order-lg-first ">
-                  <div class="card news">
-                    <div class="card-body">
-                      <div class="h-100 d-flex flex-column align-items-start ">
-                        <div>
-                          <p class="card-text">(주)동원이엔씨는 전문가의 전략적 분석, 고객의 최대 이익을 원칙으로 합니다.</p>
-                        </div>
-                        <div class="mt-auto w-100">
-                          <p class="pt-2 mb-0 border-top">2023/12/18</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-10 order-first order-lg-last">
-                  <img src="./images/news02.jpg" alt="">
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="splide__slide">
-            <div class="splide__slide__container">
-              <div class="row">
-                <div class="col-lg-2 order-last order-lg-first ">
-                  <div class="card news">
-                    <div class="card-body">
-                      <div class="h-100 d-flex flex-column align-items-start ">
-                        <div>
-                          <p class="card-text">(주)동원이엔씨는 전문가의 전략적 분석, 고객의 최대 이익을 원칙으로 합니다.</p>
-                        </div>
-                        <div class="mt-auto w-100">
-                          <p class="pt-2 mb-0 border-top">2023/12/18</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-10 order-first order-lg-last">
-                  <img src="./images/news01.jpg" alt="">
-                </div>
-              </div>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </section>
 
     </div>
   </section>

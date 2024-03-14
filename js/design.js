@@ -63,18 +63,21 @@ document.addEventListener( 'DOMContentLoaded', function() {
   // news list section
   new Splide( '#news-list', {
     autoWidth: true,
-    fixedHeight: 534,
+    // fixedHeight: 534,
     type   : 'loop',
+    autoplay: false,
     perPage    : 1,
     focus  : 1,
-    pagination : true,
-    breakpoints: {
-      600: {
-        fixedWidth : 60,
-        fixedHeight: 860,
-      },
-    },
-  } ).mount(  );
+    pagination : true, 
+    // breakpoints: {
+    //   600: {
+    //     fixedWidth : 60,
+    //     fixedHeight: 860,
+    //   },
+    // },
+  } ).mount( );
+
+
 
   // related-site-logo section
   new Splide( '#related-site_slider', {
@@ -117,7 +120,7 @@ document.addEventListener( 'DOMContentLoaded', function() {
       },
     },
   } ).mount( 
-    window.splide.Extensions 
+    // window.splide.Extensions 
     );
 
 } );
@@ -202,6 +205,14 @@ var swiper = new Swiper(".homepage-main-carousel", {
     el: ".swiper-pagination",
     clickable: true,
   },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+
+
+var swiper = new Swiper(".newsSlider", {
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",

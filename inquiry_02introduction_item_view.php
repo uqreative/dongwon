@@ -13,10 +13,10 @@
     <div class="container">
         <ul class="nav nav-pills nav-fill justify-content-center justify-content-lg-center flex-nowrap">
             <li class="nav-item">
-                <a class="nav-link active" href="./inquiry_01inquiryform.php">컨설팅/견적문의</a>
+                <a class="nav-link " href="./inquiry_01inquiryform.php">컨설팅/견적문의</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="./inquiry_02introduction_item.php">제품소개</a>
+                <a class="nav-link active" href="./inquiry_02introduction_item.php">제품소개</a>
             </li>
         </ul>
     </div>
